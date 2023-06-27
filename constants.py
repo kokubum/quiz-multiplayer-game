@@ -1,0 +1,1 @@
+MAX_SIZE_LEN = 5
