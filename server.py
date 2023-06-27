@@ -102,7 +102,7 @@ def ask_question():
 				answer.append(int(option_number))
 			option_number += 1
 		send_to_all(quiz_server, "\nAperte o ENTER pra Responder")
-		print("answer: option number " + str(answer))
+		print("Resposta: alternativa numero " + str(answer))
 	else:
 		send_to_all(quiz_server, "Questoes ESGOTADAS!")
 		end_quiz()
@@ -138,7 +138,7 @@ def quiz():
 					time.sleep(3)
 					quiz()
 			else:
-				print("NOTHING!")						
+				print("NADA!")						
 		else:
 			send_to_all(quiz_server, "BUZINA NAO FOI APERTADA")
 			print("BUZINA NAO FOI APERTADA")
