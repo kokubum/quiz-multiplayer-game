@@ -1,2 +1,2 @@
-# quiz-multiplayer-game
+# Quiz - Multiplayer Game
 Quiz Multiplayer game using socket 
